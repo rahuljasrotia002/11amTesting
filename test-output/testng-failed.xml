@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Test">
+    <classes>
+      <class name="secondloginTESTNG.Ttitle">
+        <methods>
+          <include name="titile"/>
+        </methods>
+      </class> <!-- secondloginTESTNG.Ttitle -->
+      <class name="secondloginTESTNG.url">
+        <methods>
+          <include name="urls"/>
+        </methods>
+      </class> <!-- secondloginTESTNG.url -->
+      <class name="secondloginTESTNG.verylogin">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- secondloginTESTNG.verylogin -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Failed suite [Suite] -->
